@@ -53,6 +53,8 @@ h5 {
 
 p {
   font-size: var(--fs-p);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.75;
 }
 
 li {
@@ -128,6 +130,9 @@ section.contact {
 .skill-item {
   padding: 1rem;
   text-align: center;
+  min-height: 300px;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 .form {
@@ -144,7 +149,7 @@ section.contact {
   font-size: 2rem;
   border-radius: .5rem;
   background-color: #d4d4d4;
-  color: white;
+  color: var(--primary-clr);
   padding: .5rem;
 }
 

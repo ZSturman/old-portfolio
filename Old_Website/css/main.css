@@ -986,4 +986,23 @@ a {
   border-radius: 10%;
   color: var(--primary-txt-clr);
 }
+
+.new-site-button {
+  position: fixed;
+  background-color: var(gray);
+  color: var(white);
+  z-index: 99;
+  background-color: var(--accent-clr-drk);
+  border: none;
+  border-radius: .5rem;
+  font-size: var(--fs-m);
+  padding: .5ch;
+  color: var(--primary-clr-dark);
+  -webkit-box-shadow: var(--shadow);
+          box-shadow: var(--shadow);
+}
+
+.new-site-button:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
